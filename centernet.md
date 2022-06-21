@@ -39,7 +39,7 @@ C:.
 │  demo.py
 │  main.py
 │  test.py
-│  _init_paths.py  将c:\Users\FX63\Desktop\CenterNet-master\src\lib添加到PYTHON临时搜索路径
+│  _init_paths.py  将\CenterNet-master\src\lib添加到PYTHON临时搜索路径
 │
 ├─lib
 │  │  logger.py    设置输出日志格式
@@ -55,7 +55,7 @@ C:.
 │  │  │      pascal.py      定义数据集类PascalVOC
 │  │  │
 │  │  └─sample 数据集预处理和增强
-│  │          ctdet.py      定义数据集类CTDetDataset
+│  │          ctdet.py      定义数据集类CTDetDataset    目前只用了目标检测和姿态估计
 │  │          ddd.py        定义数据集类DddDataset
 │  │          exdet.py      定义数据集类EXDetDataset
 │  │          multi_pose.py 定义数据集类MultiPoseDataset
@@ -139,7 +139,7 @@ C:.
 │          utils.py         定义了AverageMeter类，计算并存储平均值和当前值
 │          __init__.py
 │
-└─tools   不知道干啥的
+└─tools   
     │  calc_coco_overlap.py            计算coco格式数据集的overlap
     │  convert_hourglass_weight.py     模型文件转换
     │  convert_kitti_to_coco.py        kitti格式数据集转为coco格式
