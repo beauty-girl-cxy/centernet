@@ -7,3 +7,5 @@
 
 测试在colab上进行：
 [colab链接](https://colab.research.google.com/drive/10PbSdYpNUJtg67GmKmU821stAcLG1vyB?usp=sharing)
+
+centernet.md文件对整体文件夹内容进行解释
